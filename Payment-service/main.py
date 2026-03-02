@@ -1,6 +1,9 @@
 from fastapi import FastAPI
+from routes.payment_routes import router as payment_router
 
-app=FastAPI()
+app=FastAPI(title="Payment service")
+
+app.include_router(payment_router)
 
 @app.get("/")
 def read_root():
