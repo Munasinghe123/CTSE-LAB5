@@ -19,3 +19,12 @@ GET orders
 GET Order By Id
 <img width="1914" height="719" alt="image" src="https://github.com/user-attachments/assets/97a966a6-59d0-4fc3-b2c3-ed803cf5ef21" />
 
+POST Payment
+<img width="1032" height="806" alt="image" src="https://github.com/user-attachments/assets/722498e4-f11d-4a56-b929-70a873562e3f" />
+
+GET Payment
+<img width="1519" height="878" alt="image" src="https://github.com/user-attachments/assets/9c960167-a861-49eb-b89d-e247ade85ac1" />
+
+GET Payment By Id
+<img width="832" height="761" alt="image" src="https://github.com/user-attachments/assets/72682f98-6275-4551-8394-d32bb713f868" />
+
