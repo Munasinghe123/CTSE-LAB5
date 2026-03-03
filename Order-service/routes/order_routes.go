@@ -7,7 +7,7 @@ import (
 )
 
 func SetupOrderRoutes(app *fiber.App) {
-	orderGroup := app.Group("/orders")
+	orderGroup := app.Group("/")
 
 	orderGroup.Get("/", controllers.GetOrders)
 	orderGroup.Post("/", controllers.CreateOrder)

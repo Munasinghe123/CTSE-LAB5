@@ -7,7 +7,7 @@ const itemRoutes = require("./routes/item-routes");
 app.use(cors());
 app.use(express.json());
 
-app.use("/items", itemRoutes);
+app.use("/", itemRoutes);
 
 app.get("/", (req, res) => {
   res.json({ message: "Item Service Running" });
