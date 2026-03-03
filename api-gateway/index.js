@@ -9,6 +9,7 @@ app.use(
   createProxyMiddleware({
     target: "http://item-service:8081",
     changeOrigin: true,
+    pathRewrite: { "^/items": "" }, 
   })
 );
 
@@ -18,6 +19,7 @@ app.use(
   createProxyMiddleware({
     target: "http://order-service:8082",
     changeOrigin: true,
+    pathRewrite: { "^/orders": "" }, 
   })
 );
 
@@ -27,6 +29,7 @@ app.use(
   createProxyMiddleware({
     target: "http://payment-service:8083",
     changeOrigin: true,
+     pathRewrite: { "^/payments": "" },
   })
 );
 
